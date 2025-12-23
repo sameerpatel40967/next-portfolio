@@ -1,0 +1,17 @@
+[
+  {
+    "title": "JavaScript Mastery",
+    "issuer": "Udemy",
+    "image": "/certificates/js-cert.png"
+  },
+  {
+    "title": "Frontend Development",
+    "issuer": "freeCodeCamp",
+    "image": "/certificates/frontend-cert.png"
+  },
+  {
+    "title": "React Developer",
+    "issuer": "Meta / Coursera",
+    "image": "/certificates/react-cert.png"
+  }
+]

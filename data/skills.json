@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML",
+    "level": "Advanced",
+    "prog": 95
+  },
+  {
+    "name": "CSS / Tailwind",
+    "level": "Advanced",
+    "prog": 92
+  },
+  {
+    "name": "JavaScript",
+    "level": "Advanced",
+    "prog": 90
+  },
+  {
+    "name": "React",
+    "level": "Advanced",
+    "prog": 90
+  },
+  {
+    "name": "Node.js",
+    "level": "Intermediate",
+    "prog": 75
+  },
+  {
+    "name": "Python",
+    "level": "Intermediate",
+    "prog": 70
+  },
+  {
+    "name": "C",
+    "level": "Beginner",
+    "prog": 50
+  },
+  {
+    "name": "SQL",
+    "level": "Intermediate",
+    "prog": 68
+  }
+]

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌗 THEME VARIABLES */
+:root {
+  --bg-color: #f9fafb; /* Light background */
+  --text-color: #111827; /* Light text */
+  --glass-bg: rgba(0, 0, 0, 0.04);
+  --glass-border: rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --bg-color: #06070a; /* Dark background */
+  --text-color: #f9fafb; /* Dark text */
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+/* 🌈 BODY STYLE */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  background-image: radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.08), transparent 10%),
+    radial-gradient(circle at 90% 90%, rgba(16, 185, 129, 0.04), transparent 10%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* 💎 GLASS EFFECT */
+.glass {
+  background: linear-gradient(180deg, var(--glass-bg), rgba(255, 255, 255, 0.02));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  border-radius: 14px;
+}
+
+/* 🧱 CONTAINER */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* 🔠 Typewriter caret */
+.typewriterCaret {
+  display: inline-block;
+  width: 2px;
+  background: linear-gradient(180deg, #fff, #aaa);
+  margin-left: 6px;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* 🌀 Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 📱 Responsive tweaks */
+@media (max-width: 640px) {
+  .glass {
+    border-radius: 10px;
+  }
+}
+/* ✨ Smooth Neon Glow Animation */
+@keyframes floatingGlow {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.group:hover::before {
+  animation: floatingGlow 4s linear infinite;
+}

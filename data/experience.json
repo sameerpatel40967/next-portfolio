@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Frontend Developer Intern",
+    "company": "PixelWave Tech",
+    "period": "Jan 2024 – Apr 2024",
+    "description": "Developed UI components using React & Tailwind, improved accessibility and performance across pages."
+  },
+  {
+    "role": "Freelance Web Designer",
+    "company": "Self Employed",
+    "period": "May 2023 – Present",
+    "description": "Created responsive websites for clients with modern glass-morphism design and SEO optimization."
+  },
+  {
+    "role": "Open Source Contributor",
+    "company": "GitHub Community",
+    "period": "2022 – Present",
+    "description": "Contributed to UI/UX enhancements and documentation of various open-source React projects."
+  }
+]

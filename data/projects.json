@@ -1,0 +1,25 @@
+[
+  {
+    "title": "DevConnector \u2014 Social for Developers",
+    "description": "A full-stack social app with JWT auth, profiles, posts, and comments. Built with Next.js, Node.js and MongoDB.",
+    "stack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "github": "https://github.com/yourusername/devconnector",
+    "demo": "https://devconnector.example.com"
+  },
+  {
+    "title": "TaskMaster \u2014 Productivity App",
+    "description": "A responsive task manager with drag-and-drop and local storage sync.",
+    "stack": [
+      "React",
+      "Tailwind",
+      "LocalStorage"
+    ],
+    "github": "https://github.com/yourusername/taskmaster",
+    "demo": "https://taskmaster.example.com"
+  }
+]
