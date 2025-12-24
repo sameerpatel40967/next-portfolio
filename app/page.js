@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = "force-static";
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -2,10 +2,10 @@
   "name": "next-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://sameerpatel40967.github.io/next-portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "deploy": "gh-pages -d out"
+    "build": "next build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
